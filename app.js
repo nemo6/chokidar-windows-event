@@ -95,8 +95,6 @@ chokidar.watch( ".", { ignoreInitial:true } )
 
 })
 
-console.log(`Le contenu du fichier est afficher sur le localhost:${port}`)
-
 function walk_folder(dir,ob={}) {
 
 	let list = fs.readdirSync(dir)
